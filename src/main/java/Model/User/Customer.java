@@ -21,4 +21,11 @@ public class Customer extends UserAccount {
     }
 
 
+    public ArrayList<DiscountCode> getDiscountCodes() {
+        return discountCodes;
+    }
+
+    public void addDiscountCode(DiscountCode discountCode){
+        discountCodes.add(discountCode);
+    }
 }
