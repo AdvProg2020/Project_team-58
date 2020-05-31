@@ -32,4 +32,8 @@ public class BuyLog extends Log {
     public void delivered(){
         isDelivered=true;
     }
+
+    public String getType(Log log) {
+        return "Buy Log";
+    }
 }

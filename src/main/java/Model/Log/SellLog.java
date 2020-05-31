@@ -27,4 +27,8 @@ public class SellLog extends Log{
     public UserAccount getBuyer() {
         return buyer;
     }
+
+    public String getType(Log log) {
+        return "Sell Log";
+    }
 }

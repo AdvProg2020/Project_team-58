@@ -37,4 +37,6 @@ public abstract class Log {
     public void addProduct(Product product){
         productList.add(product);
     }
+
+    public abstract String getType(Log log);
 }
