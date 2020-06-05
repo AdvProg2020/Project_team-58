@@ -38,5 +38,5 @@ public abstract class Log {
         productList.add(product);
     }
 
-    public abstract String getType(Log log);
+    public abstract String getType();
 }

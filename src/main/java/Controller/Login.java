@@ -15,7 +15,7 @@ public class Login {
         else{
             if(!userManager.doesUserPassMatch(username,password)) return "Wrong Password";
                 else {
-                    loggedInUser=userManager.getUserByUsername(username);
+                    loggedInUser=userManager.getUserByUserName(username);
             }
         }
         return "Login Successful";

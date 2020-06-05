@@ -33,7 +33,7 @@ public class BuyLog extends Log {
         isDelivered=true;
     }
 
-    public String getType(Log log) {
+    public String getType() {
         return "Buy Log";
     }
 }
